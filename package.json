@@ -1,0 +1,19 @@
+{
+  "name": "vpbot-minecraft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mineflayer": "^4.29.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-web-inventory": "^1.8.5",
+    "socks": "^2.8.4",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}
