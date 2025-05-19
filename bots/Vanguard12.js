@@ -4,7 +4,7 @@ const webInventory = require('mineflayer-web-inventory');
 const { pathfinder, Movements, goals: { GoalBlock } } = require('mineflayer-pathfinder');
 const { loadProxyConfig } = require('../modules/proxyLoader');
 
-const INVENTORY_PORT = 3001;
+const INVENTORY_PORT = 3012;
 
 async function createBot() {
   // Load proxy config từ file proxy1.txt (hoặc đổi tên theo bạn)
@@ -29,7 +29,7 @@ async function createBot() {
 
   const botOptions = {
     host: 'mc.luckyvn.com',
-    username: 'Vanguard01',
+    username: 'Vanguard12',
     version: '1.18.2',
   };
 
